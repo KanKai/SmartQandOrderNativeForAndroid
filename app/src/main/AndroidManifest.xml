@@ -18,6 +18,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".BranchListActivity" />
+        <activity android:name=".BranchDetailActivity" />
+        <activity android:name=".RecommenBranchActivity" />
+        <activity android:name=".ReserveQueueActivity" />
+        <activity android:name=".OrderListActivity"></activity>
     </application>
 
 </manifest>
