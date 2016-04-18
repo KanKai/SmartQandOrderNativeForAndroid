@@ -14,7 +14,7 @@ import java.util.List;
 public class BranchListActivity extends AppCompatActivity {
 
     private static final String[] COUNTRIES = new String[] {
-            "Belgium", "France", "Italy", "Germany", "Spain"
+            "Siam Square One", "C.P Tower "
     };
 
     @Override

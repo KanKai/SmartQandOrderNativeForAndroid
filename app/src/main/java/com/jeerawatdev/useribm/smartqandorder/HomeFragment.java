@@ -38,7 +38,7 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 Log.d("Test","Click");
-                Intent i = new Intent(getActivity(),BranchListActivity.class);
+                Intent i = new Intent(getActivity().getApplicationContext(),BranchListActivity.class);
                 startActivity(i);
             }
         });
