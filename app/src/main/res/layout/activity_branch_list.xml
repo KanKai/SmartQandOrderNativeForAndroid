@@ -3,15 +3,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.jeerawatdev.useribm.smartqandorder.BranchListActivity">
+    tools:context="com.jeerawatdev.useribm.smartqandorder.BranchListActivity"
+    android:id="@+id/my_toolsbar">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary">
+
+    </android.support.v7.widget.Toolbar>
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/btnBack"
+        android:layout_alignParentRight="false"
+        android:background="@drawable/back"
+        android:textColor="#ffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="5dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="continue"
+        android:id="@+id/BtnNext"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        android:textColor="#ffffff" />
 
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="260dp"
         android:id="@+id/imageView"
         android:layout_alignParentTop="true"
+        android:src="@drawable/porkporkribhalf"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/porkporkribhalf" />
+        android:layout_marginTop="60dp" />
 
     <LinearLayout
         android:orientation="vertical"
